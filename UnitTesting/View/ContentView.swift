@@ -27,7 +27,7 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
                         .padding()
-                        .background(.gray)
+                        .background(.gray.opacity(0.7))
                         .cornerRadius(25)
                     Button {
                         if textFieldtext.isEmpty {
