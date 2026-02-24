@@ -58,7 +58,7 @@ struct NavigationView: View {
     var body: some View {
         VStack{
            Text("NavigationView")
-            Text(Image(systemName: "heart.fill"))
+            Text(Image(systemName: "gear"))
                 .font(.largeTitle)
             }
         }
