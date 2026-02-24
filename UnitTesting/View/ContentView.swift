@@ -40,7 +40,7 @@ struct ContentView: View {
                         Text("Add Task")
                             .foregroundStyle(.white)
                             .padding()
-                            .background(.red)
+                            .background(.black)
                             .cornerRadius(25)
                     }.alert(isPresented: $alertMessage) {
                         return Alert(title: Text("This Field can not be empty!!"))
